@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react';
 import { motion } from 'framer-motion';
 import Scene3D from '../components/Scene3D';
+import ColourfulText from '../components/ColourfulText';
 
 const Hero = () => {
     return (
@@ -68,7 +69,7 @@ const Hero = () => {
                         lineHeight: 1.1,
                     }}
                 >
-                    I build <span className="gradient-text">intelligent systems.</span>
+                    I build <ColourfulText text="intelligent systems." />
                 </motion.h2>
 
                 <motion.p
