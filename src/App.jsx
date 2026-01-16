@@ -10,6 +10,7 @@ import Education from './sections/Education';
 import Lenis from 'lenis'
 import Loader from './components/Loader';
 import { AnimatePresence } from 'framer-motion';
+import SocialDock from './components/SocialDock';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -43,6 +44,11 @@ function App() {
             <Skills />
             <Education />
             <Contact />
+            <div style={{ position: 'fixed', bottom: '20px', left: 0, width: '100%', zIndex: 100, pointerEvents: 'none' }}>
+              <div style={{ pointerEvents: 'auto' }}>
+                <SocialDock />
+              </div>
+            </div>
           </main>
         </>
       )}
