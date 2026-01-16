@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-glass: rgba(255, 255, 255, 0.05);
+
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+  --text-accent: #64ffda; /* Teal/Cyan specific to tech */
+  
+  --primary-color: #3b82f6; /* Blue */
+  --secondary-color: #8b5cf6; /* Purple */
+  --accent-color: #06b6d4; /* Cyan */
+
+  /* Gradients */
+  --gradient-main: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  --gradient-text: linear-gradient(to right, #64ffda, #3b82f6);
+
+  /* Typography */
+  --font-main: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 8rem;
+
+  /* Effects */
+  --transition: all 0.3s ease;
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --glow: 0 0 20px rgba(59, 130, 246, 0.5);
+  --radius: 12px;
+}
